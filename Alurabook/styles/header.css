@@ -87,7 +87,7 @@
         display: flex;
     }
 
-    .opções__itens {
+    .opções__item {
         padding: 0 1em;
         text-transform: uppercase;
     }
@@ -103,6 +103,15 @@
 
     .cabeçalho__menu-hamburger {
         display: none;
+    }
+
+    .opções__botão:checked~.lista-menu {
+            display: block;
+            width: auto;
+    }
+
+    .opções__botão {
+            display: none;
     }
 
 }
